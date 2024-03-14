@@ -1,0 +1,1 @@
+type ScaleAllOptions = 'fromNoScaledFile' | 'differentSourceTarget'
