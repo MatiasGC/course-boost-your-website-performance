@@ -21,6 +21,12 @@ body {
   margin: 0;
 }
 
+.img_in_panel {
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+}
+
 .container {
   display: flex;
   width: 90vw;
