@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Mulish";
   /* src: url(FONT_FILE_NAME.woff2) format('woff2'); */
-  src: url("./fonts/Mulish/static/Mulish-Regular.ttf") format("ttf");
+  src: url("./fonts/Mulish/static/Mulish-Regular.ttf") format("truetype");
 }
 
 * {
