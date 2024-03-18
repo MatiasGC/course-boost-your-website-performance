@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); */
+
+@font-face {
+  font-family: "Mulish";
+  /* src: url(FONT_FILE_NAME.woff2) format('woff2'); */
+  src: url("./fonts/Mulish/static/Mulish-Regular.ttf") format("ttf");
+}
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Muli', sans-serif;
+  /* font-family: 'Muli', sans-serif; */
+  font-family: "Mulish", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
