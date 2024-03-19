@@ -147,6 +147,10 @@ main a,
   color: blue;
 }
 
+img {
+  aspect-ratio: 2.33;
+}
+
 @media (min-width: 60em) {
   main,
   .secondary {
