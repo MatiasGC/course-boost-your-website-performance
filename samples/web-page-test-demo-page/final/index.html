@@ -103,7 +103,16 @@
         <h1>
           Pageload Delays Triple when Developers Forget to Check WebPageTest
         </h1>
-        <img src="./images/dog.webp" />
+        <img
+          src="./images/dog.webp"
+          srcset="
+            ./images/dog.webp            2000w,
+            ./images/dog-1640w-703w.webp 1640w,
+            ./images/dog-1180w-506w.webp 1180w,
+            ./images/dog-270w-116w.webp   270w
+          "
+          sizes="(min-width: 960px) 58.48vw, 90vw"
+        />
         <p>
           Users are alarmed by increased webpage loading times, noting that
           helpful tools are "literally right here." <a href="#">Full Story</a>
@@ -128,7 +137,17 @@
           Users are alarmed by increased webpage loading times, noting that
           helpful tools are "literally right here." <a href="#">Full Story</a>
         </p>
-        <img src="./images/dog.webp?again" />
+        <img
+          src="./images/dog.webp?again"
+          srcset="
+            ./images/dog.webp            2000w,
+            ./images/dog-1640w-703w.webp 1640w,
+            ./images/dog-1180w-506w.webp 1180w,
+            ./images/dog-270w-116w.webp   270w
+          "
+          sizes="(min-width: 960px) 58.48vw, 90vw"
+          alt=""
+        />
       </section>
       <section class="headlines-secondary">
         <article>
@@ -137,7 +156,11 @@
         </article>
         <article>
           <h2>Service Workers Handling Requests Beautifully</h2>
-          <img src="./images/serviceworkers.webp?again" importance="low" alt="" />
+          <img
+            src="./images/serviceworkers.webp?again"
+            importance="low"
+            alt=""
+          />
         </article>
       </section>
     </div>
@@ -151,7 +174,7 @@
       }
 
       // Call the blocking function
-     // blockMainThread();
+      // blockMainThread();
     </script>
 
     <script>
