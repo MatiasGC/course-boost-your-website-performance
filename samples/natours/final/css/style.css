@@ -4,7 +4,6 @@
   src: url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
 }
 
-
 @font-face {
   font-family: "linea-basic-10";
   src: url("fonts/linea-basic-10.eot");
@@ -1594,13 +1593,13 @@ body {
       from(rgba(126, 213, 111, 0.8)),
       to(rgba(40, 180, 133, 0.8))
     ),
-    url(../img/hero-small.webp);
+    url(../img/hero-small-600w.webp);
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
       rgba(40, 180, 133, 0.8)
     ),
-    url(../img/hero-small.webp);
+    url(../img/hero-small-600w.webp);
   background-size: cover;
   background-position: top;
   position: relative;
