@@ -825,6 +825,7 @@ body {
 }
 .card__side--front {
   background-color: #fff;
+  color: black;
 }
 .card__side--back {
   -webkit-transform: rotateY(180deg);
@@ -1170,7 +1171,7 @@ body {
 .form__input {
   font-size: 1.5rem;
   font-family: inherit;
-  color: inherit;
+  color: black;
   padding: 1.5rem 2rem;
   border-radius: 2px;
   background-color: rbga(#fff, 0.5);
