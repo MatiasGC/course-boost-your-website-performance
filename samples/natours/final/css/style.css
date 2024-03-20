@@ -1,4 +1,11 @@
 @font-face {
+  font-family: "Lato";
+  /* src: url(FONT_FILE_NAME.woff2) format('woff2'); */
+  src: url("./fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
   font-family: "linea-basic-10";
   src: url("fonts/linea-basic-10.eot");
   src: url("fonts/linea-basic-10.eot?#iefix") format("embedded-opentype"),
