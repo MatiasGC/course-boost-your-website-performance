@@ -1,7 +1,7 @@
 import StrategyGoogleApi from "@/types/e-strategy-google-api";
 import IGetPsiInfo from "@/types/i-get-psi-info";
 
-const baseUrl = "https://nathankrasney.com";
+const baseUrl = "https://continued-course-boost-your-website-performance.vercel.app/";
 const tabs: string[] = [
   "/",
   "/about",
@@ -23,7 +23,7 @@ const tabs: string[] = [
   "/events",
 ];
 
-export const PSI_API_SAMPLE_SAVE_TO_MONGODB = false;
+export const PSI_API_SAMPLE_SAVE_TO_MONGODB = true;
 export const URL_CONTAIN = "/nathankrasney.com";
 
 const catChosen = {
